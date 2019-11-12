@@ -2,6 +2,7 @@ extends RigidBody2D
 
 onready var Game = get_node("/root/Game")
 onready var Starting = get_node("/root/Game/Starting")
+export var maxspeed = 1000
 
 func _ready():
 	contact_monitor = true
